@@ -23,26 +23,31 @@ For use in Google Colab:
 - On the left-hand side panel, go to the files tab and upload the dataset.zip and utils.py files.
 - Run the cells as instructed in the notebook.
 
-Contact me for any questions:
-Christophe Karam
-cbk02@mail.aub.edu
+Contact me for any questions:\
+Christophe Karam\
+cbk02@mail.aub.edu\
 karam.christophe@gmail.com
 
 ## Results
 
-TD-LSTM on SST1 >>> test accuracy 23.9827
-TC-LSTM on SST1 >>> test accuracy 23.9827
-TD-LSTM on SST2 >>> test accuracy 50.3172
+### LSTMs
+
+TD-LSTM on SST1 >>> test accuracy 23.9827\
+TC-LSTM on SST1 >>> test accuracy 23.9827\
+TD-LSTM on SST2 >>> test accuracy 50.3172\
 TC-LSTM on SST2 >>> test accuracy 50.3172
+
 -----------------------------------------
-AT-LSTM on SST1 >>> test accuracy 32.4905
-AE-LSTM on SST1 >>> test accuracy 
-AT-LSTM on SST2 >>> test accuracy 71.9846
-AE-LSTM on SST2 >>> test accuracy 
-AT-LSTM on SentiHood >>> test accuracy 
+
+AT-LSTM on SST1 >>> test accuracy 32.4905\
+AE-LSTM on SST1 >>> test accuracy \
+AT-LSTM on SST2 >>> test accuracy 71.9846\
+AE-LSTM on SST2 >>> test accuracy \
+AT-LSTM on SentiHood >>> test accuracy \
 AE-LSTM on SentiHood >>> test accuracy
 
 
+## DCNN
 DCNN on all Datasets
 
 **SST-1**: 5 classes
@@ -81,6 +86,7 @@ Validation: 78.01%
 Testing: 77.66%
 
 **SentiHood**: 2 classes
+
 Basic Dynamic CNN:
 Training: 76.94 %
 Validation: 75.84 %
@@ -113,7 +119,7 @@ Training: 62.82 %
 Validation: 55.67 %
 Testing: 56.81 %
 
-MultiChannelCNN
+### MultiChannelCNN
 
 **SST-1**: 5 classes
 Training: 39.31%
@@ -136,10 +142,11 @@ Validation: 63.05%
 Testing: 57.64
 
 
-Basic Dynamic CNN: 1,076,305
-Two Conv Dynamic CNN: 1,127,605
-Two Feature Map Dynamic CNN: 1,255,205
-MultiChannel CNN: 8,814 (5,860,800 non-trainable)
-AT-LSTM: 67,594,505
-TD-LSTM: 483,605
+## Model Number of Parameters
+Basic Dynamic CNN: 1,076,305\
+Two Conv Dynamic CNN: 1,127,605\
+Two Feature Map Dynamic CNN: 1,255,205\
+MultiChannel CNN: 8,814 (5,860,800 non-trainable)\
+AT-LSTM: 67,594,505\
+TD-LSTM: 483,605\
 TC-LSTM: 643,605
